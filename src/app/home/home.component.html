@@ -1,0 +1,98 @@
+<div class="container" style="margin-top: 120px;">
+    <h2>Komputery</h2>
+    <div class="row">
+        <div class="card-deck">
+            <div class="card" *ngFor="let PC of PCList">
+                <img src="../../assets/images/{{PC.image}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">{{PC.name}}</h5>
+                  <p class="card-text">{{PC.description}}</p>
+                </div>
+                <div class="card-footer">
+                    <div class="price">
+                        {{PC.price}}
+                    </div>
+                    <button  onclick="window.location.href='/cart'" type="button" class="btn btn-primary buy-now">Kup Teraz</button>
+                </div>
+            </div>
+          </div>
+    </div>
+    <h2>Procesory</h2>
+    <div class="row">
+        <div class="card-deck">
+            <div class="card" *ngFor="let Processors of ProcessorList">
+                <img src="../../assets/images/{{Processors.image}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">{{Processors.name}}</h5>
+                  <p class="card-text">{{Processors.description}}</p>
+                </div>
+                <div class="card-footer">
+                    <div class="price">
+                        {{Processors.price}}
+                    </div>
+                    <button  onclick="window.location.href='/cart'" type="button" class="btn btn-primary buy-now">Kup Teraz</button>
+                </div>
+            </div>
+          </div>
+    </div>
+    <h2>Karty graficzne</h2>
+    <div class="row">
+        <div class="card-deck">
+            <div class="card" *ngFor="let GCard of GCardsList">
+                <img src="../../assets/images/{{GCard.image}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">{{GCard.name}}</h5>
+                  <p class="card-text">{{GCard.description}}</p>
+                </div>
+                <div class="card-footer">
+                    <div class="price">
+                        {{GCard.price}}
+                    </div>
+                    <button  onclick="window.location.href='/cart'" type="button" class="btn btn-primary buy-now">Kup Teraz</button>
+                </div>
+            </div>
+          </div>
+    </div>
+    <h2>Monitory</h2>
+    <div class="row">
+        <div class="card-deck">
+            <div class="card" *ngFor="let Monitors of MonList">
+                <img src="../../assets/images/{{Monitors.image}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">{{Monitors.name}}</h5>
+                  <p class="card-text">{{Monitors.description}}</p>
+                </div>
+                <div class="card-footer">
+                    <div class="price">
+                        {{Monitors.price}}
+                    </div>
+                    <button  onclick="window.location.href='/cart'" type="button" class="btn btn-primary buy-now">Kup Teraz</button>
+                </div>
+            </div>
+          </div>
+    </div>
+    <h2>Myszki</h2>
+    <div class="row">
+        <div class="card-deck">
+            <div class="card" *ngFor="let Mouses of MouList">
+                <img src="../../assets/images/{{Mouses.image}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">{{Mouses.name}}</h5>
+                  <p class="card-text">{{Mouses.description}}</p>
+                </div>
+                <div class="card-footer">
+                    <div class="price">
+                        {{Mouses.price}}
+                    </div>
+                    <button   onclick="window.location.href='/cart'" type="button" class="btn btn-primary buy-now">Kup Teraz</button>
+                </div>
+            </div>
+          </div>
+    </div>
+
+  </div>
+
+
+
+
+     

@@ -1,0 +1,17 @@
+
+.nav-item{
+    padding:5px;
+    margin-left: 50px;
+    margin-bottom:10px;
+    width:150px
+    ;
+}
+.nav-link{
+    color:black;
+    text-align: center;
+    font-size: large;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 600
+
+}
+

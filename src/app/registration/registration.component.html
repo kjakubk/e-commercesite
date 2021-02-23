@@ -1,0 +1,66 @@
+
+<div class="container">
+<div class="card bg-light">
+<article class="card-body mx-auto" style="max-width: 400px;">
+	<h4 class="card-title mt-3 text-center">Utwórz konto</h4>
+	<p class="text-center">Zamawiaj i zbieraj punkty!</p>
+	<p>
+		<a href="https://twitter.com/?lang=en" class="btn btn-block btn-twitter"> <i class="fab fa-twitter"></i>   Zaloguj przez Twitter</a>
+		<a href="https://www.facebook.com/" class="btn btn-block btn-facebook"> <i class="fab fa-facebook-f"></i>   Zaloguj przez Facebook</a>
+	</p>
+	<p class="divider-text">
+        <span class="bg-light">lub</span>
+    </p>
+	<form>
+	<div class="form-group input-group">
+		<div class="input-group-prepend">
+		    <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+		 </div>
+        <input name="account.name" class="form-control" placeholder="Imię i nazwisko" type="text">
+    </div> 
+    <div class="form-group input-group">
+    	<div class="input-group-prepend">
+		    <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
+		 </div>
+        <input name="account.email" class="form-control" placeholder="Adres Email" type="email">
+    </div> 
+    <div class="form-group input-group">
+    	<div class="input-group-prepend">
+		    <span class="input-group-text"> <i class="fa fa-phone"></i> </span>
+		</div>
+		<select class="custom-select" style="max-width: 120px;">
+		    <option selected="">+48</option>
+		    <option value="1">+43</option>
+		    <option value="2">+49</option>
+		    <option value="3">+43</option>
+		</select>
+    	<input name="account.numberp" class="form-control" placeholder="Numer telefonu" type="text">
+    </div>
+    <div class="form-group input-group">
+    	<div class="input-group-prepend">
+		    <span class="input-group-text"> <i class="fa fa-building"></i> </span>
+		</div>
+		<select class="form-control">
+			<option selected=""> Wybierz typ konta</option>
+			<option>Konto firmowe</option>
+			<option>Konto prywatne</option>
+			<option>Jeszcze nie zdecydowałem/am</option>
+		</select>
+	</div> 
+    <div class="form-group input-group">
+    	<div class="input-group-prepend">
+		    <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+		</div>
+        <input class="form-control" placeholder="Utwórz hasło" type="password">
+    </div> 
+    <div class="form-group input-group">
+    	<div class="input-group-prepend">
+		    <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+		</div>
+        <input class="form-control" placeholder="Powtórz hasło" type="password">
+    </div>                                      
+    <div class="form-group">
+       <button type="submit" class="btn btn-primary btn-block" onclick="window.location.href='/cart'"> Utwórz konto </button> 
+    </div>      
+    <p class="text-center">Posiadasz już konto? <a href="/login">Zaloguj się!</a> </p>                                                                 
+</form>
